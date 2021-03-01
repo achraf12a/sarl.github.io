@@ -1,0 +1,88 @@
+nav{height: 60px;position: relative;}
+.box{
+    background-image: url(img/scania.jpeg) ;
+    padding: 400px 200px;
+    background-size: cover;
+    border-radius: 100px;
+    margin: 100px;
+    
+
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+}
+p{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#particles-js
+{
+    height: 100%;
+    background: #f00;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(169, 169, 169, 0.349);
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(169, 169, 169, 0.349);
+}
+nav ul {list-style: none;margin: 0;padding: 0;}
+nav > ul >li {float: left;padding-top: 5px;background-color: rgb(207, 103, 6);border-radius: 20px;}
+nav ul ::after{content: "";display: block;clear: both;}
+nav ul li a {display: inline-block;color: burlywood;padding: 10px 20px;width: 150px;text-decoration: none;border-radius: 20px;}
+nav ul li a:hover {background-color: rgb(201, 129, 21);}
+nav > ul > li > a {padding: 20px 20px 17px 20px;width: auto;}
+nav ul ul {display: none; position: absolute;top: 100%;background-color: #2b2a2a99;border-radius: 20px;}
+nav ul ul li a {color: rgb(192, 192, 192);}
+nav ul ul li a:hover {color: rgb(177, 163, 146);}
+nav ul li:hover > ul {display: block;}
+nav ul li:hover{background-color: rgb(100, 93, 84,b4);}
+nav ul ul li {position: relative;}
+nav ul ul ul {left: 100%;top:0;border-radius: 20px;}
+
+nav img {
+    position: relative;
+    nav-right: auto;
+    left: 1142Px;
+    
+}
+
+body{
+    background: rgb(156, 120, 72)
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.btn-1{
+    width: 300px;
+    height: 100px;
+    border:none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(248, 100, 1);
+    border-radius: 20px;
+    box-shadow:inset 0 0 0 0 rgb(230, 226, 4);
+    transition: ease-out 0.7s;
+    font-size: 2rem;
+    outline: none;
+
+}
+.btn-1:hover{
+    box-shadow: inset 300px 0 0 0 rgb(255, 251, 0);
+}
